@@ -115,7 +115,7 @@ CREATE TABLE `shoe` (
 --
 
 INSERT INTO `shoe` (`id`, `name`, `price`, `sale`, `size`, `category_id`, `color`, `review`) VALUES
-(3, 'giầy lồn', 11, 1, '1', 1, 'xanh,vàng,cam,hồng cánh sen,trắng,đỏ,tím,đen', 'xanh,vàng,cam,hồng cánh sen,trắng,đỏ,tím,đen'),
+(3, 'giầy', 11, 1, '1', 1, 'xanh,vàng,cam,hồng cánh sen,trắng,đỏ,tím,đen', 'xanh,vàng,cam,hồng cánh sen,trắng,đỏ,tím,đen'),
 (7, 'Mẫn Lan', 99999999999, 0, '10', 2, 'xanh,vàng,cam,hồng cánh sen,trắng,đỏ,tím,đen', ''),
 (8, 'Tu Le Dang', 1111, 3, '1', 3, 'xanh,vàng,cam,hồng cánh sen,trắng,đỏ,tím,đen', ''),
 (9, 'Tu Le Dang', 34332, 3, '33', 2, 'xanh,vàng,cam,hồng cánh sen,trắng,đỏ,tím,đen', ''),
@@ -152,31 +152,31 @@ CREATE TABLE `shoe_image` (
 --
 
 INSERT INTO `shoe_image` (`id`, `shoe_id`, `link_image`) VALUES
-(1, 16, 'imageShoe/73039743_457799481516743_2944413433908428800_n.jpg'),
-(2, 16, 'imageShoe/74589546_545009112982009_579124783078178816_n.jpg'),
-(3, 16, 'imageShoe/146972117_2849928912001221_7521882077628797924_n.jpg'),
-(4, 15, 'imageShoe/278436512_1056949608191262_6272145579401916967_n.jpg'),
-(5, 15, 'imageShoe/278713399_1987770381397641_3834876700356754447_n.jpg'),
-(6, 15, 'imageShoe/ao.jpg'),
-(7, 19, 'imageShoe/167460640_548361456141577_4021222783376699911_n (2).jpg'),
-(8, 19, 'imageShoe/167460640_548361456141577_4021222783376699911_n.jpg'),
-(9, 19, 'imageShoe/186990832_2912094862453743_3770370240088288146_n.jpg'),
-(10, 19, 'imageShoe/213649488_187668229973939_9155369604254683281_n.jpg'),
-(21, 21, 'imageShoe/73039743_457799481516743_2944413433908428800_n.jpg'),
-(24, 24, 'imageShoe/146972117_2849928912001221_7521882077628797924_n.jpg'),
-(25, 24, 'imageShoe/ao.jpg'),
-(26, 23, 'imageShoe/73039743_457799481516743_2944413433908428800_n.jpg'),
-(27, 23, 'imageShoe/74589546_545009112982009_579124783078178816_n.jpg'),
-(28, 23, 'imageShoe/146972117_2849928912001221_7521882077628797924_n.jpg'),
-(29, 22, 'imageShoe/cogiaoman.png'),
-(30, 25, 'imageShoe/SharedScreenshot3.jpg'),
-(31, 25, 'imageShoe/SharedScreenshot4.jpg'),
-(32, 25, 'imageShoe/SharedScreenshot5.jpg'),
-(33, 26, 'imageShoe/SharedScreenshot.jpg'),
-(34, 26, 'imageShoe/SharedScreenshot2.jpg'),
-(35, 27, 'imageShoe/245073628_3091058767796051_5731964485928323993_n.jpg'),
-(36, 27, 'imageShoe/245495174_2898697773716058_6691009756593589867_n.png'),
-(37, 27, 'imageShoe/245642692_415139920308073_6895757974366559092_n.png');
+(1, 16, 'imageShoe/sneaker 1.jpg'),
+(2, 16, 'imageShoe/sneaker 2.jpg'),
+(3, 16, 'imageShoe/sneaker 3.jpg'),
+(4, 15, 'imageShoe/sneaker 4.jpg'),
+(5, 15, 'imageShoe/sneaker 5.jpg'),
+(6, 15, 'imageShoe/sneaker 6.jpg'),
+(7, 19, 'imageShoe/sneaker 7 (2).jpg'),
+(8, 19, 'imageShoe/sneaker 8.jpg'),
+(9, 19, 'imageShoe/sneaker 9.jpg'),
+(10, 19, 'imageShoe/sneaker 10.jpg'),
+(21, 21, 'imageShoe/sneaker 11.jpg'),
+(24, 24, 'imageShoe/sneaker 12.jpg'),
+(25, 24, 'imageShoe/sneaker 13.jpg'),
+(26, 23, 'imageShoe/sneaker 14.jpg'),
+(27, 23, 'imageShoe/sneaker 15.jpg'),
+(28, 23, 'imageShoe/sneaker 16.jpg'),
+(29, 22, 'imageShoe/sneaker 17.png'),
+(30, 25, 'imageShoe/sneaker 18.jpg'),
+(31, 25, 'imageShoe/sneaker 19.jpg'),
+(32, 25, 'imageShoe/sneaker 20.jpg'),
+(33, 26, 'imageShoe/sneaker 21.jpg'),
+(34, 26, 'imageShoe/sneaker 22.jpg'),
+(35, 27, 'imageShoe/sneaker 23.jpg'),
+(36, 27, 'imageShoe/sneaker 24.png'),
+(37, 27, 'imageShoe/sneaker 25.png');
 
 -- --------------------------------------------------------
 
